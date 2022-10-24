@@ -1,0 +1,378 @@
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title> Categories | Anxiety</title>
+<style>
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #D0D3D4;
+}
+
+li {
+  float:left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to blue on hover */
+li a:hover {
+  background-color:#EBFBFB;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Style the dropdown button*/
+.dropdown .dropbtn {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* Style the dropdown content*/
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #D0D3D4;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a light blue background on the links and the dropdown button on hover */
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #EBFBFB;
+  color: black;
+}
+
+/* Add a light blue background to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color:#EBFBFB ;
+  color: black;
+}
+
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+h1.Anxiety{
+	text-align: center;
+	font-size: 60px;
+	color: black;
+	font-weight: 700;
+	padding-bottom:0;
+}
+p.anxiety-heading{
+	text-align: center;
+	font-size: 20px;
+	color: black;
+	padding-top:0;
+}
+/* The navigation bar */
+.categories-menu {
+  overflow: hidden;
+  position: absolute;
+  left: 350px;
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.categories-menu a {
+  float: left;
+  display: block;
+  color: blue;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  padding-bottom: 30px;
+}
+/*Customize the heading on each page of the mental health disorders*/
+#Causes, #Types, #What-is-anxiety, #Symptoms, #Prevention{
+	text-align: Center;
+	font-size: 29px;
+	text-decoration: underline;
+}
+p.anxiety-heading{
+	text-align: center;
+	font-size: 22px;
+}
+p.anxiety-body{
+	padding-top: 25px;
+	text-align: center;
+	letter-spacing:0.5px;
+	line-height:1.5;
+	font-size: 16px;
+	margin-left: 45px;
+	margin-right: 45px;
+}
+p.anxiety-list{
+	text-align: left;
+	letter-spacing:0.5px;
+	line-height:1.5;
+	font-size: 16px;
+    left: 60%;	
+	text-align: justify;
+	margin-left: 45px;
+	margin-right: 45px;
+}
+h3{
+	text-align: left;
+	letter-spacing:0.5px;
+	line-height:1.7;
+	font-size: 18px;
+    left: 60%;	
+	text-align: justify;
+	margin-left: 50px;
+}
+body, anxiety{
+	background-color:#F0FDEE;
+}
+/*Footer*/
+.footer {
+  bottom: 0;
+  left: 0;
+  margin-top:8px;
+  text-align: center;
+  color: black;
+}
+</style>
+
+<ul>
+  <li><a href="index.php">Home</a></li>
+  <div class="dropdown">
+    <button class="dropbtn">Categories
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="Anger.html">Anger</a>
+      <a href="Anxiety.html">Anxiety</a>
+	  <a href="Depression.html">Depression</a>
+	    <a href="Insomnia.html">Insomnia</a>
+	  <a href="Stress.html">Stress</a>
+    </div>
+  </div>
+  <li><a href="counsellors.php">About The Counsellor</a></li>
+  <li><a href="My account.php">Book A Session</a></li>
+  <li><a href="faq.html">FAQ</a></li>
+   <div class="dropdown">
+    <button class="dropbtn">Log In/Register
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="My account.php">Log In</a>
+      <a href="Registation.php">Register</a>
+    </div>
+  </div>
+</ul>
+</head>
+
+<h1 class="Anxiety"> Anxiety</h1>
+
+<p class="anxiety-heading"><b>What is anxiety, its causes and sypmtoms? 
+Read below to find out more.</p></b>
+
+<div class="categories-menu">
+  <a href="#What-is-anxiety">What is Anxiety? |</a>
+  <a href="#Types">Types of Anxiety |</a>
+  <a href="#Causes">Causes |</a>
+  <a href="#Symptoms">Symptoms |</a>
+  <a href="#Prevention">Prevention </a>
+</div>
+
+<body class="anxiety">
+<br>
+
+	<p class="anxiety-body">Anxiety is a normal and often healthy emotion. 
+	However, when a person regualarly feels disproportionate levels of anxiety it might be a medical disorder.
+	Anxiety disorders form a category of mental health diagnosis that lead to excessive nevoursness,
+	fear, apprehension, and worry.
+	Mental health disorders alter how a person processes emotions and behaves, also causing physical symptoms.
+	Mild anxiety might be vague and unsettling, while severe anxiety may seriously affect day-to-day-living.
+	Anxiety is part of the "Most Common mental illnesses" group,however, only a few percentage of people
+	with an anxiety disorder receive treatment.</p>
+	<h2 id="What-is-anxiety">What is anxiety?</h2> 
+	<p class="anxiety-body">The American Psychological Association (APA) defines anxiety as "an emotion
+	characterized by feelings oftension, worried thoughts and physical changes like difficulty breathing".
+	Anxiety can also be defined as a feeling of unease, such as worry or fear, that can be mild or severe. 
+	Knowing the difference between anxiety and an anxiety disorder requiring medical attention can help a person 
+	identify and treat the condition.
+	In this article, we will look at the the causes, symptoms and treatment of anxiety.
+	<br></p>
+	<h2 id="Types">Types of anxiety</h2>
+	<p class="anxiety-list">In the previous Diagnostic and Statistical Manual of Mental Health Disorders,anxiety
+	disorders included obsessive-compulsive disorder (OCD) and post-traumatic stress disorder (PTSD), as well as
+	acute stress disorder. However, the manual now no longer groups these mental health difficulties under anxiety.
+<br><br>
+	<b>Anxiety disorders now include the following diagnoses:</b>
+<br><br>
+	<b>Generalized Anxiety Disorder:</b> 
+	This is the chronic disorxer involving excessive, long-lasting anxiety and worries about non-specific life events,
+	objects and situations. GAD is the most common anxiety disorder and people with this disorder are not always able
+	to identify the cause of their anxiety.
+<br><br>
+	<b>Panic Disorder:</b>
+	Brief or sudden attacks of intense terror and apprehension characterize panic disorder. These attacks can lead to
+	shaking, confusion, dizziness,nausea and breathing difficulties. Panic attacks tend to occur and escalate rapidly,
+	peaking after 10 minutes. However, a panic attack might last for hours.
+	Panic disorders usually occur after frightening experiences or prolonged stress but may also occur without a trigger.
+	An individual experiencing a panic attack may misinterpret it as a life-threatening illness, and may make drastic
+	changes in behavior to avoid future attacks.
+<br><br>
+	<b>Separation Anxiety Disorder:</b>
+	High levels of anxiety after seperation from a person or place that provides feelings of security or safety characterize
+	separation anxiety disorder. Separation might sometimes result in panic symptoms.
+<br><br>
+	<b>Social Anxiety Disorder or Social Phobia:</b>
+	This is a fear of negative judgement from others in social situations or of public embarrassmnet.
+	Social anxiety disorder includes a range of feelings such as stage fright, a fear of intimacy, and anxiety around 
+	humiliation and rejection.This disorder can cause people to avoid public situations abd human interaction to the 
+	point that everyday living is rendered extremely difficult.
+<br></p>
+	<h2 id="Causes"> Causes of Anxiety</h2>
+	<p class="anxiety-body">The causes of anxiety disorders are complicated. Many might occur at once, some may lead
+	to others, and some might not lead to an anxiety disorder unless another is present.</p>
+	<p class="anxiety-body">Possible causes include:</p>
+	<p class="anxiety-list">	>Environmental stressors, such as difficulties at work, relationship problems, or family issues.<br>
+	>Genetics, as people who have family members with an anxiety disorder are more likely to experience one themselves.<br>
+	>Medical factors, such as the symptoms of a different disease, the effects of a medication, 
+	or the stress of an intensive surgery or prolonged recovery.<br>
+	>Brain chemistry, as psychologists define many anxiety disorders 
+	as misalignments of hormones and electrical signals in the brain.<br>
+	>Withdrawal from an illicit substance, the effects of which might 
+	intensify the impact of other possible causes. 
+	</p>
+
+	<h2 id="Symptoms">Symptoms of Anxiety</h2>
+
+	<p class="anxiety-body">It's important to understand that many people experience anxiety at some point in their lives. In fact,<br>
+	anxiety is a very normal response to stressful lfe events like moving to university, examinations or financial troubles.<br>
+	However, when anxiety symptoms become larger than the events that triggered them and begin to interfere with your life, they could be signs of
+	an anxiety disorder.<br>
+	Anxiety disorders can debilitating, but people can manage them with proper help from a medical professional. 
+	Recognizing the symptoms if the first step.</p>
+
+	<h3> Excessive Worrying</h3>
+	<p class="anxiety-list">One of the most common symptoms of an anxiety disorder is excessive worrying.<br>
+	People with anxiety disorders will worry disproportionately about events or everyday situations.<br>
+	A doctor will diagnose someone with a generalized anxiety disorder if this worrying occurs on most days for atleast 6 months<br>
+	and, is difficult to control.The worrying must also be severe and intrusive, making it difficult to concentrate and accomplish daily tasks.</p>
+
+<h3>Feeling Agitated</h3>
+<p class="anxiety-list">When someone is feeling anxious, part of their sympathetic nervous system goes into overdrive.<br>
+This kicks off effects throughtout the body, such as: <br>
+> Racing palms<br>
+> Shaky hands<br>
+> Dry mouth<br>
+> Sweaty palms<br>
+These symptoms occur because your brain believes you've sensed danger, and it's preparing your body to react to the threat.
+Your body carries blood away from your digestive system and toward your muscles in case you need to run or fight also resulting 
+in an increased heart rate and heightens your senses.</p>
+
+<h3>Fatigue</h3>
+<p class="anxiety-list">This symptom can be surprising to some, this is because anxiety is commonly associated with with hyperactivity but becoming easily
+fatigued is another potential symptom of genaralized anxiety disorder.
+It is important to take note that for some, fatigue can follow an anxiety attack, while others may feel fatigue almost all the time.
+
+It's unclear wether fatigue is due to other common anxiety symptoms, such as insomnia or wether it may be related to the hormonal effects of chronic anxiety.
+
+It is important to note that fatigue can also be a sign of depression or other medical conditions, this means that fatigue alone is not enough 
+to diagnose an anxiety disorder.</p>
+
+<h3>Irrational Fears</h3>
+<p class="anxiety-list">Extreme fears about specific things such as, spiders, enclosed spaces, insects, blood or heights, this could all be a sign of a phobia.
+
+A phobia is an extreme anxiety or fear about a specific object or situation. The feeling is severe enough that it interfers with your ability to function normally.
+<br>
+Some common phobias include: <br>
+> <b>Situational phobia:</b> These phobias include fears of certain situations like an airplane or car ride.<br>
+> <b>Blood Injection Injury Phobias:</b> This includes the fear of blood, injections, needles, or injuries.<br>
+> <b>Agoraphobia</b> involves the fear of at least two or more of the following:<br>
+  > Being outside of the home alone<br>
+  > Being in open/public spaces<br>
+  > Being in enclosed spaces<br></p>
+
+
+<h3>Panic Attacks</h3>
+<p class="anxiety-list">Panic disorder is another type of anxiety disorder in which a person may experience recurring panic attacks.
+<br>
+Panic attacks produce an intense, overwhelming sensation of fear that can be debilitating.
+<br>
+During a panic attack, a person may experience:<br>
+> Rapid heartbeat<br>
+> Sweating<br>
+> Shortness of breath<br>
+> Chest Tightness <br>
+> Nausea<br>
+> Shaking<br>
+Panic attacks can happen as isolated occurances, but they may be a sign of a panic disorder if they occur frequently and unexpectedly.
+</p>
+<h2 id="Prevention">Prevention</h2>
+
+<p class="anxiety-list">Remember that anxious feelings are a natural factor of daily life, and experiencing them does not always indicate the presence of a mental health disorder.
+<br>
+As a student, make sure to take the following steps to help moderate anxious emotions:
+<br>
+> Reduce intake of caffeine, tea, cola, and chocolate.<br>
+> Before using over-the-counter (OTC) or herbal remedies, check with a doctor or pharmacist for any chemicals that may make anxiety symptoms worse.<br>
+> Maintain a healthy diet. <br>
+> Keep a regular sleep pattern.<br>
+> Avoid alcohol, cannabis, and other recreational drugs.<br>
+<br></p>
+</pre>
+
+
+
+</body>
+<div class="footer">
+<ul id="menu-footer" class="therapy-nav-menu">
+<div class="disclaimer"
+ <p> <b>DISCLAIMER<br>
+ If you are in a life threatening situation, DO NOT USE THIS SITE.
+ Call the 24-hour National Suicide Prevention Lifeline at 061 232221.
+ If your issue is an emergency, call (police/ambulance) or go to your nearest emergency room.</b></p>
+</div>
+
+  <li><a href="index.php">Home</a></li>
+  <li><a href="faq.html">Frequently Asked Questions</a></li>
+ </ul>
+
+ <p>&#x000A9;&nbsp;2021 &middot; <a href="index.php"> Free Online Therapy</a>
+  &middot;
+</div>
+</html>

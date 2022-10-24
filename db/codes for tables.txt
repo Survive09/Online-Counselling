@@ -1,0 +1,42 @@
+CREATE TABLE administrators (
+id int AUTO_INCREMENT PRIMARY key not null,
+Name varchar(20),
+Email varchar(30),
+Telephone varchar(30),
+UserName varchar(10),
+Password text COMMENT"password is encrypted");
+
+CREATE TABLE members (
+id int AUTO_INCREMENT PRIMARY key not null,
+Firstname varchar(20),
+Lastname varchar(20),
+Email varchar(30),
+Birthday text,
+Telephone varchar(30),
+Country varchar(20),
+Username varchar(10),
+Password text);
+
+CREATE TABLE services (
+id int AUTO_INCREMENT PRIMARY key not null,
+Name varchar(20),
+Age varchar(10),
+Email varchar(30),
+ZoomID text);
+
+CREATE TABLE counsellors (
+id int AUTO_INCREMENT PRIMARY key not null,
+Firstname varchar(20),
+Lastname varchar(20),
+Email varchar(30),
+Country varchar(20),
+Contact varchar(20),
+Password text);
+
+ALTER TABLE services add Member_ID VARCHAR(10);
+
+ALTER TABLE services add Contact VARCHAR(20) AFTER Email;
+
+ALTER TABLE services add Date text AFTER ZoomID;
+
+alter table counsellors add Username varchar(20) AFTER Contact

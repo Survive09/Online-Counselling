@@ -1,0 +1,316 @@
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title> Categories | Insomnia</title>
+<style>
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #D0D3D4;
+}
+
+li {
+  float:left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to blue on hover */
+li a:hover {
+  background-color:#EBFBFB;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Style the dropdown button*/
+.dropdown .dropbtn {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* Style the dropdown content*/
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #D0D3D4;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a light blue background on the links and the dropdown button on hover */
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #EBFBFB;
+  color: black;
+}
+
+/* Add a light blue background to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color:#EBFBFB ;
+  color: black;
+}
+
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+h1.Anxiety{
+	text-align: center;
+	font-size: 60px;
+	color: black;
+	font-weight: 700;
+	padding-bottom:0;
+}
+p.anxiety-heading{
+	text-align: center;
+	font-size: 20px;
+	color: black;
+	padding-top:0;
+}
+/* The navigation bar */
+.categories-menu {
+  overflow: hidden;
+  position: absolute;
+  left: 350px;
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.categories-menu a {
+  float: left;
+  display: block;
+  color: blue;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  padding-bottom: 30px;
+}
+/*Customize the heading on each page of the mental health disorders*/
+#Causes, #Types, #What-is-anxiety, #Symptoms, #Prevention{
+	text-align: Center;
+	font-size: 29px;
+	text-decoration: underline;
+}
+p.anxiety-heading{
+	text-align: center;
+	font-size: 22px;
+}
+p.anxiety-body{
+	padding-top: 25px;
+	text-align: center;
+	letter-spacing:0.5px;
+	line-height:1.5;
+	font-size: 16px;
+	margin-left: 45px;
+	margin-right: 45px;
+}
+p.anxiety-list{
+	text-align: left;
+	letter-spacing:0.5px;
+	line-height:1.5;
+	font-size: 16px;
+    left: 60%;	
+	text-align: justify;
+	margin-left: 45px;
+	margin-right: 45px;
+}
+h3{
+	text-align: left;
+	letter-spacing:0.5px;
+	line-height:1.7;
+	font-size: 18px;
+    left: 60%;	
+	text-align: justify;
+	margin-left: 50px;
+}
+body, anxiety{
+	background-color:#F0FDEE;
+}
+/*Footer*/
+.footer {
+  bottom: 0;
+  left: 0;
+  margin-top:8px;
+  text-align: center;
+  color: black;
+}
+</style>
+
+<ul>
+  <li><a href="index.php">Home</a></li>
+  <div class="dropdown">
+    <button class="dropbtn">Categories
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="Anger.html">Anger</a>
+      <a href="Anxiety.html">Anxiety</a>
+	  <a href="Depression.html">Depression</a>
+	    <a href="Insomnia.html">Insomnia</a>
+	  <a href="Stress.html">Stress</a>
+    </div>
+  </div>
+  <li><a href="counsellors.php">About The Counsellor</a></li>
+  <li><a href="My account.php">Book A Session</a></li>
+  <li><a href="faq.html">FAQ</a></li>
+   <div class="dropdown">
+    <button class="dropbtn">Log In/Register
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="My account.php">Log In</a>
+      <a href="Registation.php">Register</a>
+    </div>
+  </div>
+</ul>
+</head>
+
+<h1 class="Anxiety"> Insomnia</h1>
+
+<p class="anxiety-heading"><b>What is Insomnia, its causes and sypmtoms? 
+Read below to find out more.</p></b>
+
+<div class="categories-menu">
+  <a href="#What-is-anxiety">What is Insomnia? |</a>
+  <a href="#Types">Types of Insomnia |</a>
+  <a href="#Causes">Causes |</a>
+  <a href="#Symptoms">Symptoms |</a>
+  <a href="#Prevention">Treatment </a>
+</div>
+
+<body class="anxiety">
+<br>
+
+	<p class="anxiety-body">Insomnia is a sleep disorder that regularly affects millions of people worldwide.
+	Someone with insomnia finds it difficult to fall asleep or stay asleep.</p>
+	
+
+
+	<h2 id="What-is-anxiety">What is Insomnia?</h2> 
+	
+	<p class="anxiety-body">Insomnia is a common sleep disorder that can make it hard to fall asleep, hard to stay
+	asleep, or cause you to wake up too early and not be able to get back to sleep. You may still feel tired when you wake up.
+	Insomnia can sap not only your energy level and mood but also your health, work performance and quality of life.
+	<br>
+	In this article, we will look at the the causes and treatment of insomnia.
+	<br></p>
+	
+	<h2 id="Types">Types of Insomnia</h2>
+	
+		<p class="anxiety-list"><b>Insomnia can be classified by duration:</b><br>
+	Acute, transient insomnia is a short-term problem<br>
+	Chronic insomnia can last for months or years.<br>
+<br>
+	<b>Doctors also classify it by cause:</b>
+<br>
+	Primary insomnia is an issue by itself.<br>
+	Secondary insomnia is a result of another health issue<br>
+<br>
+	<b>In addition, they classify it by severity:</b><br>
+	Mild insomnia involves a lack of sleep that leads to tiredness<br>
+	Moderate insomnia may affect daily functioning<br>
+	Severe insomnia has a significant impact on daily life<br></br>
+	<b>Doctors also consider other factors when identifying the type of insomnia.
+	Including whether the person consistently wakes up too early or has trouble:</b>
+<br>
+	falling asleep<br>
+	staying asleep<br>
+	getting restorative sleep<br>
+	<br></p>
+
+	<h2 id="Causes"> Causes of Insomnia</h2>
+	
+	<p class="anxiety-list">
+	Insomnia can result from a range of physical and psychological factors. Often, the cause is a temporary problem,
+	such as short-term stress.<br>
+	In some other instances, insomnia stems from an underlying medical condition.<br>
+	<b>In some people, stress or a mental health issue is responsible for insomnia. A person may be experiencing:</b>
+<br>
+	> Depression<br>
+	> Anxiety<br>
+	> Bipolar disorder<br>
+	> Schizophrenia<br>
+	
+	</p>
+
+	<h2 id="Symptoms">Symptoms of Insomnia</h2>
+<br>
+	<p class="anxiety-list">Apart from disrupted sleep, insomnia can lead other issues, such as:<br><br>
+	
+	> Daytime fatigue or sleepiness<br>
+	> Irritability, depression, or anxiety<br>
+	> Low motivation or energy<br>
+	> Poor concentration and focus<br>
+	> A lack of coordination, leading to errors or accidents<br>
+	> Worry or anxiety about sleeping<br>
+	> Using medication or alcohol to fall asleep<br>
+	> Tension headaches<br>
+	> Difficulty socializing, working, or studying<br>
+	</p>
+	<h2 id="Prevention">Treatment</h2>
+	<p class="anxiety-list">
+	<b>The best approach can depend on the underlying cause and the type of insomnia, but some options include:</b><br>
+	> Counseling<br>
+	> Cognitive behavioral therapy<br>
+	> Prescription medications<br>
+	> Over-the-counter sleep aids<br>
+	<br></p>
+	<br><br><br>
+
+</body>
+
+
+	<div class="footer">
+	<ul id="menu-footer" class="therapy-nav-menu">
+	<div class="disclaimer"
+	 <p> <b>DISCLAIMER<br>
+	 If you are in a life threatening situation, DO NOT USE THIS SITE.
+	 Call the 24-hour National Suicide Prevention Lifeline at 061 232221.
+	 If your issue is an emergency, call (police/ambulance) or go to your nearest emergency room.</b></p>
+	</div>
+
+	  <li><a href="index.php">Home</a></li>
+	  <li><a href="faq.html">Frequently Asked Questions</a></li>
+	 </ul>
+
+	 <p>&#x000A9;&nbsp;2021 &middot; <a href="index.php"> Free Online Therapy</a>
+	  &middot;
+	</div>
+</html>

@@ -1,0 +1,257 @@
+body, html {
+    height: 100%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #D0D3D4;
+}
+
+li {
+  float:left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to blue on hover */
+li a:hover {
+  background-color:#EBFBFB;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Style the dropdown button*/
+.dropdown .dropbtn {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* Style the dropdown content*/
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #D0D3D4;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a light blue background on the links and the dropdown button on hover */
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #EBFBFB;
+  color: black;
+}
+
+/* Add a light blue background to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color:#EBFBFB ;
+  color: black;
+}
+
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image. This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0)), url("onlinetherapy.jpg");
+
+  /* Set a specific height */
+  height: 93%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text{
+  text-align: left;
+  position: absolute;
+  top: 260px;
+  left:26%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 33px;
+ 
+}
+/*Customize the button*/
+button.button1{
+  text-decoration: none;
+  color: #000000;
+  border: none;
+  padding: 9px 9px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 30px;
+  cursor: pointer;
+  background-color:#D0D3D4;
+
+}
+
+/*Customize How it works*/
+.leaf-subhead {
+    font-weight: 700;
+    text-align: center;
+    color: #020202;
+    line-height: 1.1em;
+    font-size: 35px;
+	padding-top: 90px;
+}
+.leaf-sec {
+    float:left;
+    width: 33.333%;
+    text-align: center;
+}
+.leaf-img img.leafs-part {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom:15px;
+    width: 100px;
+}
+.leaf-headline-container {
+    padding: 12px 12px 50px 12px;
+}
+.leaf-sub-headline {
+	padding-bottom:20%;
+    text-align: center;
+    line-height: 1.2em;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+/*Place text in the middle of the page*/
+.homepage-text2 {	
+  text-align: left;
+  top: 1400px;
+  left:33%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 26px;
+  position:absolute;
+}
+.client-image{
+	  /* Use "linear-gradient" to add a darken background effect to the image. This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("videocall.jpg");
+
+  /* Set a specific height */
+  height:80%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  margin-top: 280px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: static;
+}
+h1.Anxiety{
+	text-align: center;
+	font-size: 60px;
+	color: black;
+	font-weight: 700;
+	padding-bottom:0;
+}
+p.anxiety-heading{
+	text-align: center;
+	font-size: 20px;
+	color: black;
+	padding-top:0;
+}
+/* The navigation bar */
+.categories-menu {
+  overflow: hidden;
+  position: absolute;
+  left: 350px;
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.categories-menu a {
+  float: left;
+  display: block;
+  color: blue;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  padding-bottom: 30px;
+}
+/*Customize the heading on each page of the mental health disorders*/
+#Causes, #Types, #What-is-anxiety, #Symptoms, #Prevention{
+	text-align: Center;
+	font-size: 29px;
+	text-decoration: underline;
+}
+p.anxiety-heading{
+	text-align: center;
+	font-size: 22px;
+}
+p.anxiety-body{
+	padding-top: 45px;
+	text-align: center;
+	letter-spacing:0.5px;
+	line-height:1.5;
+	font-size: 18px;
+}
+p.anxiety-list{
+	text-align: left;
+	letter-spacing:0.5px;
+	line-height:1.7;
+	font-size: 18px;
+    left: 60%;	
+	text-align: justify;
+}
+body, anxiety{
+	background-color:#F0FDEE;
+}
+
+
+/*Footer*/
+.footer {
+  bottom: 0;
+  left: 0;
+  margin-top:8px;
+  text-align: center;
+  color: black;
+}
