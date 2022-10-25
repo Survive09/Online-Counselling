@@ -254,18 +254,24 @@
         
         <!-- ger service form -->
         <div style="display: block; padding-left: 20px;">
-            <div id="form-back">
-                <h2>Get Service</h2>
-                <form name="myForm" onsubmit="return validateForm()" method="post">
-                    Name:
-                    <input id="first-name" placeholder="Name" type="text" name="fname"><br>Age: 
-                    <input id="age" placeholder="Age" type="number" name="age"><br>E-mail:
-                    <input id="email" placeholder="E-mail Address" type="text" name="ymail"><br> Contact Number:
-                    <input id="cont" placeholder="Contact number" type="number" name="contact"><br> Zoom ID:
-                    <input id="zoom" placeholder="Zoom ID" type="text" name="zoom"><br>Date time:
-                    <input id="date" placeholder="Date time" type="datetime-local"  name="date"><br> Passcode:
-                    <input id="code" placeholder="Zoom Passcode" type="text" name="code"><br>
-                    <button id="signup" type="submit" name="btnSubmit">Submit</button>
+            <div id="form-back" style="width: 400px; margin: 0 auto; background-color: rgba(255, 255, 255, 0.4); padding: 10px; border-radius: 20px;">
+                <h2 class="mb-3">Get Service</h2>
+                <form name="myForm"  onsubmit="return validateForm()" method="post">
+                    <input class="form-control form-control-md mb-2 w-full" placeholder="Name" type="text" name="fname">
+                    <input class="form-control form-control-md mb-2 w-full" placeholder="Age" type="number" name="age">
+                    <div class="row g-1 mb-4">
+  <div class="col">
+                    <input class="form-control form-control-md w-full" placeholder="E-mail Address" type="text" name="ymail">
+  </div>
+
+  <div class="col">
+                    <input class="form-control form-control-md w-full" placeholder="Contact number" type="number" name="contact">
+  </div>
+  </div>
+                    <input class="form-control form-control-md mb-2 w-full" placeholder="Zoom ID" type="text" name="zoom">
+                    <input class="form-control form-control-md mb-2 w-full" placeholder="Date time" type="datetime-local"  name="date">
+                    <input class="form-control form-control-md mb-5 w-full" placeholder="Zoom Passcode" type="text" name="code">
+                    <button class="form-control form-control-md btn btn-primary mb-2 w-full" type="submit" name="btnSubmit">Submit</button>
                 </form>
             </div>
 <!-- php part *************************************************************************************** -->
